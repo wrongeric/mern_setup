@@ -13,14 +13,14 @@ const App = () => (
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/contact">Contact Us</Link>
-                    <Link to="/api_test">API Test</Link>
+                    <Link to="/test">API Test</Link>
                 </li>
             </ul>
 
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
-            <Route path="/api_test" component={ApiTest}/>
+            <Route path="/test" component={ApiTest}/>
         </div>
     </div>
 );
